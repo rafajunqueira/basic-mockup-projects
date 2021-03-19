@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+h1:hover {
+    color: rgb(218, 107, 34);
+    text-decoration: underline;
+}
+
+#body {
+    background-color: black;
+    margin: 0 auto;
+}
+
+.App-header {
+    background-color: #ffc400;
+    height: 100px;
+    display: table;
+    min-width: 100%;
+}
+
+.App-header h1 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#main {
+    flex-grow: 1;
+    min-height: 500px;
+    max-width: 80%;
+    margin: 2rem auto;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #4e4e4e34;
+    justify-content: space-between ;
+}
+
+.card {
+    margin-top: 2rem;
+    min-width: 330px;
+    flex: 0 1 18%;
+    background-color: #ffffff;
+    color: black;
+    box-shadow: 5px 5px 5px #ffc4002a;
+}
+
+.card img {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-height: 11rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+}
+
+.card img:hover{
+    transform: scale(1.1);
+}
+
+.card:hover {
+    opacity: 0.95;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.card:hover {
+    color: rgb(218, 107, 34);
+}
+
+.card h1 {
+    margin-bottom: 14%;
+    margin-top: 10%;
+}
+
+.card p {
+    text-align: center;
+    padding: 20px;
+}
